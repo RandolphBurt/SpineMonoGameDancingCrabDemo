@@ -1,0 +1,123 @@
+crab.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BackLowerLegLeft
+  rotate: true
+  xy: 73, 281
+  size: 36, 69
+  orig: 36, 69
+  offset: 0, 0
+  index: -1
+FrontLowerLegRight
+  rotate: true
+  xy: 144, 206
+  size: 41, 85
+  orig: 41, 85
+  offset: 0, 0
+  index: -1
+ClawTeethLeft
+  rotate: true
+  xy: 247, 2
+  size: 89, 156
+  orig: 89, 156
+  offset: 0, 0
+  index: -1
+CrabHead
+  rotate: false
+  xy: 2, 2
+  size: 243, 202
+  orig: 243, 202
+  offset: 0, 0
+  index: -1
+FrontUpperLegRight
+  rotate: false
+  xy: 372, 330
+  size: 72, 62
+  orig: 72, 62
+  offset: 0, 0
+  index: -1
+ClawLowerLeft
+  rotate: true
+  xy: 372, 248
+  size: 80, 136
+  orig: 80, 136
+  offset: 0, 0
+  index: -1
+BackUpperLegLeft
+  rotate: false
+  xy: 2, 349
+  size: 70, 38
+  orig: 70, 38
+  offset: 0, 0
+  index: -1
+ClawUpperRight
+  rotate: false
+  xy: 247, 162
+  size: 141, 72
+  orig: 141, 72
+  offset: 0, 0
+  index: -1
+ClawUpperLeft
+  rotate: false
+  xy: 247, 93
+  size: 143, 67
+  orig: 143, 67
+  offset: 0, 0
+  index: -1
+FrontUpperLegLeft
+  rotate: true
+  xy: 446, 330
+  size: 72, 62
+  orig: 72, 62
+  offset: 0, 0
+  index: -1
+ClawLowerRight
+  rotate: true
+  xy: 2, 206
+  size: 73, 140
+  orig: 73, 140
+  offset: 0, 0
+  index: -1
+ClawNoTeethLeft
+  rotate: false
+  xy: 392, 134
+  size: 112, 112
+  orig: 112, 112
+  offset: 0, 0
+  index: -1
+FrontLowerLegLeft
+  rotate: true
+  xy: 144, 249
+  size: 41, 85
+  orig: 41, 85
+  offset: 0, 0
+  index: -1
+ClawNoTeethRight
+  rotate: true
+  xy: 405, 2
+  size: 130, 86
+  orig: 130, 86
+  offset: 0, 0
+  index: -1
+BackUpperLegRight
+  rotate: true
+  xy: 2, 404
+  size: 70, 38
+  orig: 70, 38
+  offset: 0, 0
+  index: -1
+ClawTeethRight
+  rotate: true
+  xy: 231, 236
+  size: 111, 139
+  orig: 111, 139
+  offset: 0, 0
+  index: -1
+BackLowerLegRight
+  rotate: true
+  xy: 2, 292
+  size: 36, 69
+  orig: 36, 69
+  offset: 0, 0
+  index: -1
