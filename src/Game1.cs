@@ -13,7 +13,7 @@ namespace DancingCrabDemo
         GraphicsDeviceManager _graphics;
         SpriteBatch _spriteBatch;
 
-        private SkeletonRenderer skeletonRenderer;
+        private SkeletonRegionRenderer skeletonRenderer;
         private Skeleton skeleton;
         private Animation animation;
         private float timer = 1;
@@ -46,7 +46,7 @@ namespace DancingCrabDemo
             // Create a new SpriteBatch, which can be used to draw textures.
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            this.skeletonRenderer = new SkeletonRenderer(GraphicsDevice);
+            this.skeletonRenderer = new SkeletonRegionRenderer(GraphicsDevice);
 
             var atlas = new Atlas(@"Assets\crab.atlas", new XnaTextureLoader(GraphicsDevice));
             var json = new SkeletonJson(atlas);
@@ -54,8 +54,8 @@ namespace DancingCrabDemo
             this.skeleton = new Skeleton(json.ReadSkeletonData(@"Assets\skeleton.json"));
             this.animation = this.skeleton.Data.FindAnimation("Walk");
 
-            this.skeleton.RootBone.X = 750;
-            this.skeleton.RootBone.Y = 700;
+            this.skeleton.X = 750;
+            this.skeleton.Y = 700;
         }
 
         /// <summary>
@@ -89,8 +89,9 @@ namespace DancingCrabDemo
 
             // TODO: Add your drawing code here
 
+            var lastTimer = this.timer;
             this.timer += gameTime.ElapsedGameTime.Milliseconds / 1000f;
-            this.animation.Apply(this.skeleton, this.timer, true);
+            this.animation.Apply(this.skeleton, lastTimer, this.timer, true, null);
 
             this.skeleton.UpdateWorldTransform();
             

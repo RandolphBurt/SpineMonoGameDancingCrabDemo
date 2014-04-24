@@ -125,8 +125,9 @@
     <Reference Include="SharpDX.XAudio2">
       <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll</HintPath>
     </Reference>
-    <Reference Include="SpineRunTime">
-      <HintPath>..\lib\SpineRunTime.dll</HintPath>
+    <Reference Include="SpineMonogameWindows8Store, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\SpineMonogameWindows8Store.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
